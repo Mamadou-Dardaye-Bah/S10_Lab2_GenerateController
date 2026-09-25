@@ -12,6 +12,8 @@ namespace GenerationControleurs.Migrations
     [DbContext(typeof(GenerationControleursContext))]
     partial class GenerationControleursContextModelSnapshot : ModelSnapshot
     {
+
+
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618

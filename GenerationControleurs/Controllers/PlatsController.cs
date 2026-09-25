@@ -40,7 +40,7 @@ public class PlatsController : Controller
     // GET: PLATS/Create
     public IActionResult Create()
     {
-        ViewData["RestaurantId"] = new SelectList(_context.Restaurant, "Id", "Id");
+        
         return View();
     }
 
