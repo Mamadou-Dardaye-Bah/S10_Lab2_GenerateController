@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using Microsoft.EntityFrameworkCore;
 
 namespace LinqEtSeedEF.Models
 {
@@ -8,6 +9,7 @@ namespace LinqEtSeedEF.Models
         public int? PlatId { get; set; }
         public Plat? Plat { get; set; }
         public int? CommandeId { get; set; }
+        [ValidateNever]
         public Commande? Commande { get; set; }
 
         public int Quantite { get; set; }
